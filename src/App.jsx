@@ -6,10 +6,12 @@ import { Brand, CTA, Navbar } from './components';
 function App() {
   
   return (
-    <div className='App'>
+    <main className='App'>
       <div className='gradient__bg'>
-        <Navbar />
-        <Header />
+        <div className="container">
+          <Navbar />
+          <Header />
+        </div>
       </div>
       <Brand />
       <WhatGPT3 />
@@ -18,7 +20,7 @@ function App() {
       <CTA />
       <Blog />
       <Footer />
-    </div>
+    </main>
   );
 }
 

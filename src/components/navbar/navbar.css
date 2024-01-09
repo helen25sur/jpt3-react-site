@@ -126,6 +126,12 @@
   .gpt3__navbar {
     padding: 2rem 4rem;
   }
+  
+  .gpt3__navbar-sign .solid-btn,
+  .gpt3__navbar-menu_container .solid-btn,
+  .gpt3__navbar-menu_container-links-sign .solid-btn {
+    padding: 1rem;
+  }
 }
 
 @media screen and (max-width: 550px) {
